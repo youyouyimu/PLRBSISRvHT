@@ -1,11 +1,11 @@
-==========================================================================================================================================
+============================================================================
 This code is for our paper "Piecewise-Linear-Regression-Based-Single-Image-Super-Resolution-via-Hadamard-Transform"
 
-==========================================================================================================================================
+============================================================================
 Requirements:
 The code is developed with Matlab (R2015a) and was tested under Windows 7 (64 bit). The library "Eigen" is requried to use the code, which is for the mex/cpp files.
 
-==========================================================================================================================================
+============================================================================
 Building the code:
 There is only a single mex/cpp file included in this package that can be build with the MATLAB function "mex". The steps are:
   - mex -setup C++
@@ -13,7 +13,7 @@ There is only a single mex/cpp file included in this package that can be build w
   
 We provide a pre-compiled file "SR_Hadamard.mexw64" for Windows 7 (64 bit). 
 
-==========================================================================================================================================
+=============================================================================
 Using the code:
 The file "SR_demo" is the demo usage of the proposed algorithm.
 
