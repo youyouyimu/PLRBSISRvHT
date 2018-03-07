@@ -4,7 +4,7 @@ The code is developed with Matlab (R2015a) and was tested under Windows 7 (64 bi
 Building the code:
 There is only a single mex/cpp file included in this package that can be build with the MATLAB function "mex". The steps are:
 
-mex -setup C++
+mex -setup C++                                                                 
 mex SR_scale_Hadamard.cpp ("scale" is the upscaling factor,e.g. mex SR_2_Hadamard.cpp )
 We provide a pre-compiled file "SR_2_Hadamard.mexw64" for Windows 7 (64 bit).
 
