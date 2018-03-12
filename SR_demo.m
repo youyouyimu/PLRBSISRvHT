@@ -70,7 +70,7 @@ imagepadding(2:end-1,2:end-1) = imageL;
 offset = floor( scale / 2 );
     
 startt = tic;   % the proposed SR method
-[imageH]= SR_Hadamard( imagepadding, parameters, dt, H_16 );
+[imageH]= SR_2_Hadamard( imagepadding, parameters, dt, H_16 );
 toc(startt);
 
 if(size(sz1,2)==2)
