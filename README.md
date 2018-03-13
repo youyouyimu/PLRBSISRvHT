@@ -10,7 +10,6 @@ We provide a pre-compiled file "SR_2_Hadamard.mexw64" for Windows 7 (64 bit).
 
 Using the code:
 The file "SR_demo.m" is the demo usage of the proposed algorithm.
-The file "SR_demo_urban100.m" is used to evaluate our method on Urban100.
 
 The modcrop function is from the source code of: C. Dong, C. C. Loy, K. He, and X. Tang. Learning a deep convolutional network for image super-resolution. In European Conference on Computer Vision, pages 184¨C199. Springer, 2014.
 
